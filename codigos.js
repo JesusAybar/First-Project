@@ -20,5 +20,5 @@ function IsNegative (x)
 
 
 function SumTwodigitsNumber (x)
-{if(x >= 99 || x <= 10){throw new Error("n should have 2 digits")}
+{if(x >= 99 || x <= 10){throw new Error("x should have 2 digits")}
 const SumDigits = Math.floor (x % 10) + (x / 10)}
