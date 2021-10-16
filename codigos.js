@@ -11,7 +11,7 @@ function LastDigitIs4 (x)
 return (LastDigit === 4);}
 
 
-function 3DigitsNumber (x)
+function ThreedigitsNumber (x)
 {return (x >= 100 || x <= 999 )}
 
 
@@ -19,6 +19,6 @@ function IsNegative (x)
 {return (x < 0)}
 
 
-function Sum2DigitsNumber (x)
+function SumTwodigitsNumber (x)
 {if(x >= 99 || x <= 10){throw new Error("n should have 2 digits")}
 const SumDigits = Math.floor (x % 10) + (x / 10)}
